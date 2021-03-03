@@ -1,0 +1,45 @@
+a {
+  text-decoration: none;
+  color: #00277e;
+}
+
+.header-inner {
+  width: 90%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 35px;
+  align-items: center;
+}
+
+.header-list {
+  display: flex;
+  margin-right: 20px;
+  align-items: center;
+}
+
+li:not(:last-of-type) {
+  margin-right: 40px;
+}
+
+.image {
+  position: relative;
+  width: 50%;
+  float: right;
+}
+
+.catchcopy {
+  font-size: 70px;
+  color: #00277e;
+  width: 75%;
+  border-bottom: solid 200px #000b62;
+  position: absolute;
+  top: 40%;
+  left: 0;
+}
